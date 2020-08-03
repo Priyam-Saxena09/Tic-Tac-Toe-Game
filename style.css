@@ -1,0 +1,56 @@
+body>img
+{
+    width:100%;
+    opacity:0.5;
+    height:900px;
+}
+table
+{
+    height:400px;
+    width:400px;
+    position:absolute;
+    top:20%;
+    left:35%;
+    border:2px solid blue;
+}
+td
+{
+    height:100px;
+    width:100px;
+    text-align: center;
+    font-size: 200%;
+    color: lawngreen;
+    font-family: cursive;
+    text-shadow: 2px 2px wheat;
+}
+#X
+{
+    position: absolute;
+    top:45%;
+    left:20%;
+    width:10%;
+}
+#O
+{
+    position: absolute;
+    top:45%;
+    right:25%;
+    width:10%;
+}
+#new
+{
+    position: absolute;
+    top:80%;
+    left:45%;
+    width:7%;
+}
+h1
+{
+    font-size: 260%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lime;
+    text-shadow: 2px 2px gold;
+    position: absolute;
+    left:35%;
+    top:2%
+}        
