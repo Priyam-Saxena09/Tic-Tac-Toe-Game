@@ -7,6 +7,16 @@ var X = 1;
 var O = 0;
 var x = [];
 var o = [];
+document.querySelector(".startcont").addEventListener("click",() => {
+  document.querySelector("#X").classList.remove("hide");
+  document.querySelector("#O").classList.remove("hide");
+  document.querySelector("table").classList.remove("hide");
+  document.querySelector("#new").classList.remove("hide");
+  document.querySelector("img").classList.remove("hide");
+  document.querySelector(".startcont").classList.add("hide");
+  document.querySelector("h3").classList.add("hide")
+  document.querySelector(".how").classList.add("hide");
+})
 document.querySelector("#X").addEventListener("click",(e) => {
     XO = e.target.textContent;
     document.querySelector("#X").setAttribute("disabled","disabled");
@@ -103,5 +113,3 @@ document.querySelector("#new").addEventListener("click",() => {
    x = [];
    o = [];
 })
-
-

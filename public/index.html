@@ -8,9 +8,9 @@
     <link rel="icon" href="tic-tac-toe-9-730625.png">
 </head>
 <body>
-    <img src = "images.jpg">
+    <img class="hide" src = "images.jpg">
     <h1></h1>
-    <table border="4px">
+    <table class="hide" border="4px">
         <tr>
             <td class="0" id="1"></td>
             <td class="0" id="2"></td>
@@ -27,9 +27,18 @@
             <td class="4" id="9"></td>
         </tr>
     </table>
-    <button id="X">X</button>
-    <button id="O">O</button>
-    <button id="new">New Game</button>
+    <button id="X" class="hide">X</button>
+    <button id="O" class="hide">O</button>
+    <button id="new" class="hide">New Game</button>
+    <div class="startcont">
+        <h2>Let's play the game</h2>
+    </div>
+    <div class="how">
+    <p>How to play?</p>
+    <p>First click on X or O button.Then click on the box on which you want to place X or O.</p>
+    <p>Click on the above box to Enjoy the game.</p>
+    </div>
+    <h3>Welcome to Tic-Tac-Toe</h3>
     <script src="index.js"></script>
 </body>
 </html>
